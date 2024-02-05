@@ -1,4 +1,15 @@
-"use client";
+import './App.css';
+import Page from './page'; // Make sure this path is correct
+
+function App() {
+  return (
+    <div className="App">
+      <Page />
+    </div>
+  );
+}
+
+export default App;"use client";
 import { useState } from "react";
 
 export default function Page() {
